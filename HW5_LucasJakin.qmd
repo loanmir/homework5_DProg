@@ -77,8 +77,7 @@ dataset_clean <- dataset %>% filter(!is.na(LongitudeNew) & !is.na(LatitudeNew))
 ggplot(dataset_clean, aes(x = LongitudeNew, y = LatitudeNew)) +
   geom_point(color = "black")+
   labs(x = "Longitude",
-       y = "Latitude")+
-  theme_minimal()
+       y = "Latitude")
 ```
 
 
