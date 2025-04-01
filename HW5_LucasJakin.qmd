@@ -4,7 +4,7 @@ subtitle: "Homework 5"
 author: "Lucas Lorenzo Jakin"
 date: "`r format(Sys.time(), '%e %B %Y')`"
 format: 
-  html:
+  pdf:
     embed-resources: true
 execute: 
   warning: false
